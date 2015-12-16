@@ -16,7 +16,7 @@ class AddShoeTable extends Migration
             $table->increments('id');
             $table->string('title')->nullable();
             $table->double('size')->nullable();
-            $table->double('price')->nullable();
+            $table->double('price', 5, 2)->nullable();
             $table->string('img')->nullable();
             $table->timestamps();
         });

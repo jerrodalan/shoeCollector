@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/stockyard', function(){
-    return view('stockyard');
-});
+Route::get('/stockyard', 'StockYardController@show');
