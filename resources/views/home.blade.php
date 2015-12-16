@@ -1,10 +1,20 @@
 @extends('app')
 
 @section('content')
-<div class="jumbotron" style="background-image: url('/img/air-jordan-10-chicago.jpg'); background-size: 100% 100%; background-repeat:no-repeat; height: 500px;">
-	<h1>Welcome to Shoe Collector!</h1>
+<div class = "container-fluid" style=" background-image: url('/img/air-jordan-10-chicago.jpg'); background-size: 100% 100%; background-repeat:no-repeat; height: 500px;">
+<div class="jumbotron"style=" color: #f0f0f0; background: none;">
+	<h1 >Welcome to Shoe Collector</h1>
+	<p>Your Home for the Latest Releases</p>
+	<div class="row">
+		<div class="col-sm-4">
+		<button type="button" class="btn-primary">Pre-Order</button>
+		</div>
+	</div>
+
+
 </div>
-<div class="container">
+</div>
+<div class="container" style="margin-top: 20px; margin-bottom: 20px;">
 		<div class="row">
 			<div class="col-md-4">
 				<h2>Grow Affordably</h2>
@@ -12,6 +22,13 @@
 					Grow your shoe collection without breaking the bank. Our shoes are always priced less than
 					the resale market. Save even more by pre-ordering.
 				</p>
+				<div class="row">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-6">
+						<img style="width:132px; height:132px;" src="/img/flowers12.svg">
+					</div>
+					<div class="col-sm-3"></div>
+				</div>
 			</div>
 			<div class ="col-md-4">
 				<h2>Never Miss a Release</h2>
@@ -20,6 +37,13 @@
 					Our pre-order option allows you to reserve a new release in your desired size. Skip the hassel
 					and worry, and pay less.
 				</p>
+				<div class="row">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-6">
+						<img style="width:132px; height:132px;" src="/img/footwear24.svg">
+					</div>
+					<div class="col-sm-3"></div>
+				</div>
 			</div>
 			<div class ="col-md-4">
 				<h2>Quick Delivery</h2>
@@ -27,10 +51,18 @@
 					Rock the shoes same day as if you bought it yourself. Shoes are dilivered in the same time-table
 					as if you bought it from the leading shoe sites.
 				</p>
+				<div class="row">
+					<div class="col-sm-3"></div>
+					<div class="col-sm-6">
+						<img style="width:132px; height:132px;" src="/img/deliverytruck5.svg">
+					</div>
+					<div class="col-sm-3"></div>
+				</div>
 			</div>
 		</div>
+		
 </div>
-<div class="container">
+<div class="container-fluid" style="background-color: #888a85">
 	<h2>Why trust us?</h2>
 
 </div>
