@@ -14,7 +14,7 @@
 
 </div>
 </div>
-<div class="container" style="margin-top: 20px; margin-bottom: 20px;">
+<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
 		<div class="row">
 			<div class="col-md-4">
 				<h2>Grow Affordably</h2>
@@ -60,10 +60,29 @@
 				</div>
 			</div>
 		</div>
-		
+
 </div>
 <div class="container-fluid" style="background-color: #888a85">
 	<h2>Why trust us?</h2>
 
+</div>
+
+<div class="container">
+	<div class="page-header">
+		<h2 class="text-center">Reliability</h2>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6">
+			<ul style="list-style: none">
+				<li><h3>100% Legit</h3></li>
+				<li><h3>113 Satisfied Customers</h3></li>
+				<li><h3>0 Flakes</h3></li>
+			</ul>
+		</div>
+		<div class="col-sm-6">
+			<img style="width:240px; height:400px; text-align: left" src="/img/legit.jpg">
+		</div>
+	</div>
 </div>
 @endsection
